@@ -1,4 +1,6 @@
-###########gem5-mcpat-interface:##############
+--------------------
+gem5-mcpat-interface
+--------------------
 
    a. mcpat.cc/hh -- These files go into the src/sim directory. They include the parser, event scheduler, BaseMcPAT class definition, ML interface, etc
    b. mcpat_interface.cc/hh -- These files reside in the mcpat8 folder which has the mcpat source code. The functions here are called inside the BaseMcPAT class described previously.
@@ -6,15 +8,17 @@
    d. The sample_2core.xml file is the architectural file for mcpat. 
    e. se.py includes changes to activate mcpat inside gem5. Same with Options.py
 
-
-########## ILP gurobi optimizer ################
+--------------------
+ILP gurobi optimizer 
+--------------------
    a. Gurobi optimizer used for ILP problem solving can be downloaded here http://www.gurobi.com/
    b. ilp_test.py -- This file contains the ILP formulation of the problem with a python interface
    c. script3.py -- We created this file to parse values in a format readable by the optimizer
    d. feed_to_ML.py -- This file is used to coalesce the ILP output and the default results in a format readable by the machine learning algorithm
 
-###########svm-files ####################
-
+--------------------
+svm-files 
+--------------------
    a. Code for libsvm can be obtained here https://github.com/erg/libsvm.
    b. output.c and test.c are the parsers we wrote to get the gem5 output in a format accepted by ML. 
 

@@ -1,4 +1,5 @@
 --------------------
+--------------------
 gem5-mcpat-interface
 --------------------
 
@@ -9,6 +10,7 @@ gem5-mcpat-interface
    e. se.py includes changes to activate mcpat inside gem5. Same with Options.py
 
 --------------------
+--------------------
 ILP gurobi optimizer 
 --------------------
    a. Gurobi optimizer used for ILP problem solving can be downloaded here http://www.gurobi.com/
@@ -16,6 +18,7 @@ ILP gurobi optimizer
    c. script3.py -- We created this file to parse values in a format readable by the optimizer
    d. feed_to_ML.py -- This file is used to coalesce the ILP output and the default results in a format readable by the machine learning algorithm
 
+--------------------
 --------------------
 svm-files 
 --------------------
